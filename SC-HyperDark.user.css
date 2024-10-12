@@ -3333,6 +3333,11 @@
     .tileGallery__sliderPanel {
         margin-right: 7.8vw;
     }
+    .tileGallery .tileGallery__sliderPanelSlide {
+      width: auto !important;
+      flex: 0 0 auto !important;
+      margin-right: clamp(20px, 5vw, 60px);
+    }
     .tileGallery .playableTile, .sc-classic .tileGallery .userBadgeListItem {
         width: 9vw;
         transform: scale(1.2);
